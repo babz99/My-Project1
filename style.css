@@ -1,0 +1,441 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.containerBox{
+    background-image:url(./images/back1.png);
+    background-repeat: repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.innerContainer{
+    width: 90%;
+    margin: auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+}
+
+.navy{
+    list-style: none;
+    display: flex;
+}
+
+.field{
+    margin-left: 9rem;
+    margin-top: -1rem;
+    padding-right: 1rem;
+}
+
+.navy li{
+    Font-family: 'Avenir';
+    Font-style: Medium;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-right: 5rem;
+    cursor: pointer;
+}
+
+.field button{
+    width: 117px;
+    height: 42px;
+    background:#1BC768;
+    border-radius: 35px;
+    Font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color:#FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+.text h2{
+    width: 519px;
+    height: 132px;
+    Font-family: 'Avenir';
+    Font-style: Black;
+    Font-size: 48px;
+    color: #FFFFFF;
+}
+
+.text p{
+    width: 504px;
+    height: 50px;
+    Font-family: 'Avenir';
+    Font-style: Roman;
+    Font-size: 18px;
+    color: #FFFFFF;
+    margin-top: 2rem;
+}
+
+.btn1 button{
+    width: 100px;
+    height: 40px;
+    background: transparent;
+    border-radius: 35px;
+    border: 1px solid #FFFFFF;
+    Font-family: 'Avenir';
+    font-style: Roman;
+    font-weight: 42px;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-right: 1.7rem;
+} 
+.btn{
+    display: flex;
+    margin-top: 2rem;
+}
+
+.btn1:hover button{
+    background: #FFFFFF;
+    color: #043CAA;
+}
+.form input{
+    width: 488px;
+    height: 48px;
+    Font-family: 'Avenir';
+    Font-style: Book;
+    Font-size: 16px;
+    border-radius: 35px;
+    border: none;
+    color: #7A7A7A;
+}
+
+.form button{
+    width: 117px;
+    height: 48px;
+    background:#1BC768;
+    border-radius: 35px;
+    Font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color:#FFFFFF;
+    border: none;
+    cursor: pointer;
+    margin-left: -7rem;
+    position: relative;
+}
+
+.form{
+    margin-top: 3rem;
+}
+.image{
+    width: 100%;
+    height: 500px;
+    padding-left: 15rem;
+}
+
+.hero{
+    display: flex;
+    margin-top: 5rem;
+}
+
+.section1{
+    width: 95%;
+    padding-top: 4rem;
+    text-align: center;
+}
+.section1 h1{
+    Font-family: 'Avenir';
+    Font-style: Black;
+    Font-size: 36px;
+    color: #043CAA;
+}
+
+.section2{
+    width: 95%;
+    padding-top: 4rem;
+   text-align: center;
+   padding-bottom: 2rem;
+}
+.section2 img{
+    padding-right: 7rem;
+    padding-left: 7rem;
+}
+
+.section3{
+    width: 95%;
+    padding-top: 4rem;
+    text-align: center;
+}
+
+.section3 h1{
+    Font-family: 'Avenir';
+    Font-style: Black;
+    Font-size: 36px;
+    color: #043CAA;
+}
+
+.section4{
+    padding-top: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.med h2{
+    width: 242px;
+    height: 66px;
+    Font-family: 'Avenir';
+    Font-style: Heavy;
+    Font-size: 24px;
+    color: #043CAA;
+    margin-bottom: 1rem;
+}
+
+.med1 p{
+    Font-family: 'Avenir';
+    Font-style: Roman;
+    Font-size: 18px;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    }
+
+
+ .med1{
+    display: flex;
+ }
+
+ .med1 img{
+    width: 12.8px;
+    height: 12px;
+    margin-top: 0.4rem;
+ }
+
+ .med{
+    padding-top: 8rem;
+    margin-left: 5rem;
+ }
+
+ .med2 img{
+    margin-left: 10rem;
+ }
+
+ .bbtn button{
+    width: 238px;
+    height: 47px;
+    background: #FFFFFF;
+    border-radius: 35px;
+    border-color: #1BC768;
+    Font-family: 'Avenir';
+    font-style: Roman;
+    font-weight: 42px;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #1BC768;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+ .bbtn:hover button{
+    background: #FFFFFF;
+    color: #1BC768;
+ }
+
+ .section5{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+ }
+
+ .section6{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+ }
+ .section7{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5rem;
+ }
+
+ .sec7{
+    margin: auto;
+    margin-top: 5rem;
+ }
+
+ .sec7 h2{
+    Font-family: 'Avenir';
+    Font-style: Heavy;
+    Font-size: 36px;
+    color: #000000;
+ }
+
+ .loo img{
+    padding-left: 8.5rem;
+ }
+
+ .sec7 p{
+    Font-family: 'Avenir';
+    Font-style: Roman;
+    Font-size: 18px;
+    Line-height: 32px;
+    color: #7A7A7A;
+    margin-top: 2rem;
+ }
+ 
+ .sec7 h4{
+    Font-family: 'Avenir';
+    Font-style: Roman;
+    Font-size: 18px;
+    Line-height: 32px;
+    color: #043CAA;
+    margin-top: 2rem;
+ }
+
+ .secc7 img{
+    margin-top: 2rem;
+ }
+ 
+ .section8{
+    background-image: url(./images/back2.png);
+    background-repeat: repeat;
+    background-size: cover;
+    width: 100%;
+    padding-bottom: 2rem;
+ }
+
+ .toptext{
+    display: flex;
+    justify-content: space-evenly;
+ }
+
+ .toptext1 h2{
+    Font-family: 'Avenir';
+    Font-style: Black;
+    Font-size: 24px;
+    color: #FFFFFF;
+    margin-top: 5rem;
+ }
+
+ .toptext1 p{
+    width: 404px;
+    height: 50px;
+    Font-family: 'Avenir';
+    Font-style: Roman;
+    Font-size: 18px;
+    color: #FFFFFF;
+    margin-top: 1.5rem;
+ }
+
+ .toptext2 p{
+    Font-family: 'Avenir';
+    Font-style: Roman;
+    Font-size: 18px;
+    color: #FFFFFF;
+    margin-top: 5.5rem;
+ }
+
+ .form1 input{
+    width: 488px;
+    height: 48px;
+    Font-family: 'Avenir';
+    Font-style: Book;
+    Font-size: 16px;
+    border-radius: 35px;
+    border: none;
+    color: #7A7A7A;
+}
+
+.form1 button{
+    width: 117px;
+    height: 48px;
+    background:#1BC768;
+    border-radius: 35px;
+    Font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color:#FFFFFF;
+    border: none;
+    cursor: pointer;
+    margin-left: -7rem;
+    position: relative;
+
+}
+
+.form1{
+    margin-top: 1.5rem;
+}
+
+.belowtext{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 7rem;
+}
+
+.belowtext1 h2{
+    width: 115px;
+    height: 33px;
+    Font-family: 'Avenir';
+    Font-style: Black;
+    Font-size: 24px;
+    color: #FFFFFF;
+    margin-left: -0.5rem;
+}
+
+.belowtext1 p{
+    width: 211px;
+    height: 100px;
+    Font-family: 'Avenir';
+    Font-style: Roman;
+    Font-size: 18px;
+    color: #FFFFFF;
+    margin-top: 1.5rem;
+    margin-left: -0.5rem;
+}
+
+.belowtext2 h4{
+    Font-family: 'Avenir';
+    Font-style: Heavy;
+    Font-size: 18px;
+    color: #FFFFFF;
+    margin-bottom: 2rem;
+    margin-top: 0.6rem;
+}
+
+.belowtext2 p{
+    Font-family: 'Avenir';
+    Font-style: Roman;
+    Font-size: 16px;
+    color: #FFFFFF;
+    padding-top: 0.6rem;
+}
+
+.copy{
+    text-align: center;
+    padding-top: 7rem;
+}
+.copy p{
+    Font-family: 'Avenir';
+    Font-style: Roman;
+    Font-size: 16px;
+    color: #FFFFFF;
+}
