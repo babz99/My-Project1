@@ -1,3 +1,4 @@
+  @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
 *{
     margin: 0px;
     padding: 0px;
@@ -13,6 +14,7 @@ body{
     background-image:url(./images/back1.png);
     background-repeat: repeat;
     background-size: cover;
+    background-position: fixed;
     width: 100%;
 }
 
@@ -78,6 +80,11 @@ header{
     Font-size: 48px;
     color: #FFFFFF;
 }
+
+.hamburger img{
+    padding-top: 1.2rem;
+    display: none;
+  }
 
 .text p{
     width: 504px;
@@ -160,6 +167,7 @@ header{
     padding-top: 4rem;
     text-align: center;
 }
+
 .section1 h1{
     Font-family: 'Avenir';
     Font-style: Black;
@@ -208,6 +216,8 @@ header{
 }
 
 .med1 p{
+    Width: 342px;
+    Height: 25px;
     Font-family: 'Avenir';
     Font-style: Roman;
     Font-size: 18px;
@@ -240,7 +250,7 @@ header{
     height: 47px;
     background: #FFFFFF;
     border-radius: 35px;
-    border-color: #1BC768;
+    border: 1px solid #1BC768;
     Font-family: 'Avenir';
     font-style: Roman;
     font-weight: 42px;
@@ -260,7 +270,7 @@ header{
  .section5{
     display: flex;
     justify-content: space-evenly;
-    padding-top: 3rem;
+    padding-top: 2rem;
     padding-bottom: 2rem;
  }
 
@@ -270,6 +280,7 @@ header{
     padding-top: 3rem;
     padding-bottom: 2rem;
  }
+
  .section7{
     display: flex;
     justify-content: space-evenly;
@@ -438,4 +449,766 @@ header{
     Font-style: Roman;
     Font-size: 16px;
     color: #FFFFFF;
+}
+
+@media screen and (max-width: 1024px){
+
+
+    .navy li{
+        font-weight: 400;
+        font-size: 12px;
+        padding-right: 2.5rem;
+    }
+
+    .field{
+        margin-left: 5rem;
+        padding-right: 0.5rem;
+    }
+
+    .text h2{
+        width: 440px;
+        height: 80px;
+        Font-size: 32px;
+        margin-top: 3rem;
+    }
+
+    .text p{
+        width: 330px;
+        height: 35px;
+        Font-size: 12px;
+        margin-top: 2rem;
+    }
+
+    .btn1 button{
+        width: 55px;
+        height: 30px;
+        border-radius: 30px;
+        font-weight: 42px;
+        font-size: 15px;
+        margin-right: 1.5rem;
+    } 
+
+    .form input{
+        width: 300px;
+        height: 40px;
+        Font-size: 10px;
+        border-radius: 35px;
+    }
+    
+    .form button{
+        width: 100px;
+        height: 41px;
+        border-radius: 35px;
+        font-weight: 500;
+        font-size: 10px;
+        margin-left: -6rem;
+    }
+    
+    .form{
+        margin-top: 2rem;
+    }
+    .image>img{
+        width: 150%;
+        height: 450px;
+        margin-left: -7rem;
+        margin-top: 3.2rem;
+    }
+
+    .section2{
+        width: 100%;
+    }
+    
+    .med h2{
+        width: 230px;
+        height: 55px;
+        Font-size: 25px;
+        margin-bottom: 3rem;
+    }
+    
+    .med1 p{
+        Width: 300px;
+        Height: 20px;
+        Font-size: 14px;
+        /* letter-spacing: 0.1px; */
+        margin-top: 0.2rem;
+        }
+
+        .med2>img{
+            width: 70%;
+            margin-top: 2rem;
+        }
+
+        .bbtn button{
+            width: 200px;
+            height: 47px;
+            font-weight: 42px;
+            font-size: 18px;
+            text-align: center;
+            margin-top: 1rem;
+        }
+
+    .sec7 h2{
+        Font-size: 32px;
+        margin-left: -2rem;
+    }
+
+    .drugs>img{
+        width: 70%;
+    }
+
+    .loo img{
+        padding-left: 6rem;
+    }
+
+    .sec7 p{
+        Font-size: 14px;
+        Line-height: 28px;
+        margin-top: 2rem;
+        margin-left: -1.5rem;
+    }
+    
+    .sec7 h4{
+        Font-size: 18px;
+        Line-height: 25px;
+        margin-top: 1rem;
+        margin-left: -1.5rem;
+    }
+
+ .secc7>img{
+    margin-top: 1rem;
+    margin-left: -3rem;
+    padding-left: 3rem;
+ }
+
+ .sec7{
+    margin: auto;
+    margin-top: 2rem;
+    margin-left: -3rem;
+ }
+
+ .toptext1 h2{
+    Font-size: 20px;
+    margin-top: 5rem;
+ }
+
+ .toptext1 p{
+    width: 350px;
+    height: 50px;
+    Font-size: 15px;
+    margin-top: 1.5rem;
+ }
+
+ .toptext2 p{
+    Font-size: 16px;
+    margin-top: 5.5rem;
+ }
+
+ .form1 input{
+    width: 350px;
+    height: 39px;
+    Font-size: 14px;
+    border-radius: 35px;
+}
+
+.form1 button{
+    width: 100px;
+    height: 39px;
+    background:#1BC768;
+    border-radius: 35px;
+    Font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color:#FFFFFF;
+    border: none;
+    cursor: pointer;
+    margin-left: -6rem;
+    position: relative;
+}
+
+.form1{
+    margin-top: 1rem;
+}
+
+.belowtext1 h2{
+    width: 100px;
+    height: 30px;
+    Font-size: 20px;
+    margin-left: 0.5rem;
+}
+
+.belowtext1 p{
+    width: 200px;
+    height: 100px;
+    Font-size: 16px;
+    margin-top: 1.5rem;
+    margin-left: 0.5rem;
+}
+
+.belowtext2 h4{
+    Font-size: 16px;
+    margin-bottom: 2rem;
+    margin-top: 0.3rem;
+}
+
+.belowtext2 p{
+    Font-size: 14px;
+    padding-top: 0.5rem;
+}
+
+.copy{
+    text-align: center;
+    padding-top: 4rem;
+}
+.copy p{
+    Font-size: 14px;
+}
+}
+
+@media screen and (max-width: 768px){
+    .navy li{
+        font-weight: 100;
+        font-size: 10px;
+        padding-right: 1rem;
+    }
+
+    .logo>img{
+        width: 70%;
+        margin-top: 0.5rem;
+    }
+
+    .field{
+        margin-left: 2rem;
+        padding-right: 0.8rem;
+    }
+
+    .field button{
+        width: 100px;
+        height: 35px;
+        font-weight: 100;
+        font-size: 14px;
+    }
+
+    .text h2{
+        width: 330px;
+        height: 45px;
+        Font-size: 22px;
+        margin-top: 8rem;
+    }
+
+    .text p{
+        width: 220px;
+        height: 15px;
+        Font-size: 8px;
+    }
+
+    .btn1 button{
+        width: 40px;
+        height: 20px;
+        border-radius: 30px;
+        font-weight: 42px;
+        font-size: 10px;
+        margin-right: 1rem;
+    } 
+
+    .form input{
+        width: 200px;
+        height: 30px;
+        Font-size: 8px;
+        border-radius: 35px;
+    }
+    
+    .form button{
+        width: 70px;
+        height: 31px;
+        border-radius: 35px;
+        font-weight: 500;
+        font-size: 8px;
+        margin-left: -4rem;
+    }
+
+    .image>img{
+        width: 200%;
+        height: 390px;
+        margin-left: -7rem;
+        margin-top: 6.9rem;
+    }
+
+    .section2{
+        width: 80%;
+        margin: auto;
+        /* text-align: center; */
+    }
+
+    .section2>img{
+        width: 45%;
+        margin-left: -5rem;
+        /* margin-right: -3rem; */
+    }
+    
+    .med h2{
+        width: 180px;
+        height: 20px;
+        Font-size: 20px;
+        margin-bottom: 3rem;
+    }
+    
+    .med1 p{
+        Width: 250px;
+        Height: 14px;
+        Font-size: 12px;
+        /* letter-spacing: 0.1px; */
+        }
+
+        .med2>img{
+            width: 80%;
+            margin-top: 4rem;
+            margin-left: -0.5rem;
+        }
+        
+        .bbtn button{
+            width: 160px;
+            height: 35px;
+            font-weight: 42px;
+            font-size: 14px;
+            text-align: center;
+            margin-top: 0.5rem;
+        }
+
+        .section5{
+            margin-top: -3rem;
+            padding-left: -2rem;
+            width: 90%;
+        }
+        .sec5>img{
+            width: 70%;
+            margin-top: 7rem;
+            margin-left: 4rem;
+        }
+
+        .section6{
+            margin-top: -3rem;
+        }
+
+        .sec6>img{
+            width: 75%;
+            margin-top: 7rem;
+        }
+
+        .sec7 h2{
+            Font-size: 24px;
+            margin-left: -3rem;
+        }
+    
+        .drugs>img{
+            width: 55%;
+        }
+    
+        .loo>img{
+            width: 40%;
+            padding-left: 2rem;
+
+        }
+    
+        .sec7 p{
+            Font-size: 12px;
+            Line-height: 22px;
+            margin-top: 2rem;
+            margin-left: -2.8rem;
+        }
+        
+        .sec7 h4{
+            Font-size: 14px;
+            Line-height: 25px;
+            margin-top: 1rem;
+            margin-left: -2.8rem;
+        }
+    
+     .secc7>img{
+        width: 20%;
+        margin-top: 1rem;
+        margin-left: -3.2rem;
+        padding-left: 2rem;
+     }
+    
+     .sec7{
+        margin: auto;
+        margin-top: 2rem;
+        margin-left: -12rem;
+     }
+
+     .toptext1 h2{
+        Font-size: 16px;
+        margin-top: 5rem;
+        margin-left: 2rem;
+     }
+    
+     .toptext1 p{
+        width: 280px;
+        height: 50px;
+        Font-size: 12px;
+        margin-top: 1.5rem;
+        margin-left: 2rem;
+     }
+    
+     .toptext2 p{
+        Font-size: 14px;
+        margin-top: 5.5rem;
+     }
+    
+     .form1 input{
+        width: 280px;
+        height: 31px;
+        Font-size: 9px;
+        border-radius: 35px;
+    }
+    
+    .form1 button{
+        width: 70px;
+        height: 34px;
+        border-radius: 35px;
+        font-weight: 500;
+        font-size: 9px;
+        margin-left: -4rem;
+        position: relative;
+    }
+    
+    .form1{
+        margin-top: 1rem;
+    }
+
+    .belowtext{
+        margin-top: 4rem;
+    }
+    
+    .belowtext1 h2{
+        width: 100px;
+        height: 30px;
+        Font-size: 20px;
+        margin-left: 0.5rem;
+    }
+    
+    .belowtext1 p{
+        width: 150px;
+        height: 120px;
+        Font-size: 12px;
+        margin-top: 1.5rem;
+        margin-left: 0.5rem;
+    }
+    
+    .belowtext2 h4{
+        Font-size: 14px;
+        margin-bottom: 1.5rem;
+        margin-top: 0.3rem;
+    }
+    
+    .belowtext2 p{
+        Font-size: 12px;
+    }
+    
+    .copy{
+        text-align: center;
+        padding-top: 2rem;
+    }
+    .copy p{
+        Font-size: 12px;
+    }
+}
+
+
+@media screen and (max-width: 425px){
+.hamburger img{
+        display: block;
+        margin-right: 1rem;
+ }
+  
+.navigation{
+        display: none;
+    }
+
+.logo>img{
+    width: 90%;
+    margin-left: 1rem;
+    margin-top: 1.2rem;
+  }
+
+  .hero{
+    display: flex;
+   flex-direction: column-reverse;
+}
+
+.text{
+    text-align: center;
+    margin-left: 0rem;
+  }
+
+  .text h2{
+    width: 400px;
+    height: 100px;
+    Font-family: 'Avenir';
+    Font-style: Black;
+    Font-size: 30px;
+    color: #FFFFFF;
+    margin-top: -4rem;
+}
+
+.text p{
+    width: 380px;
+    height: 50px;
+    Font-family: 'Avenir';
+    Font-style: Roman;
+    Font-size: 14px;
+    color: #FFFFFF;
+    /* margin-top: 1rem; */
+}
+
+.btn1 button{
+    width: 80px;
+    height: 40px;
+    background: transparent;
+    border-radius: 35px;
+    border: 1px solid #FFFFFF;
+    Font-family: 'Avenir';
+    font-style: Roman;
+    font-weight: 42px;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-right: 1.2rem;
+    /* margin-bottom: 1rem; */
+} 
+
+.image>img{
+    margin-left: -12rem;
+    margin-top: -3rem;
+  }
+
+  .form input{
+    width: 300px;
+    height: 48px;
+    Font-family: 'Avenir';
+    Font-style: Book;
+    Font-size: 12px;
+    border-radius: 35px;
+    border: none;
+    color: #7A7A7A;
+}
+
+.form button{
+    width: 117px;
+    height: 48px;
+    background:#1BC768;
+    border-radius: 35px;
+    Font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color:#FFFFFF;
+    border: none;
+    cursor: pointer;
+    margin-left: -7rem;
+    position: relative;
+}
+
+.form{
+    margin-bottom: 2rem;
+}
+
+.section2>img{
+   width: auto;
+   margin: auto;
+   padding-block: 2rem;
+}
+
+.section4{
+    width: 90%;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.med h2{
+    width: 260px;
+    height: 66px;
+    Font-size: 24px;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.med1 p{
+    Width: 300px;
+    Height: 20px;
+    Font-size: 12px;
+    }
+
+.med1{
+        margin-top: 1rem;
+ }
+.med2{
+    width: 100%;
+    text-align: center;
+}
+
+ .bbtn button{
+    width: 238px;
+    height: 47px;
+    background: #FFFFFF;
+    border-radius: 35px;
+    border: 1px solid #1BC768;
+    Font-family: 'Avenir';
+    font-style: Roman;
+    font-weight: 42px;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #1BC768;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.section5{
+    display: flex;
+    flex-direction: column-reverse;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+ }
+
+ .sec5{
+    width: 90%;
+    text-align: center;
+ }
+
+ .section6{
+    display: flex;
+    flex-direction: column;
+ }
+
+ .sec6{
+    width: 90%;
+    text-align: center;
+ }
+ .sec7 p{
+    Font-size: 16px;
+    Line-height: 22px;
+    margin-top: 2rem;
+    margin-left: 15rem;
+    text-align: center;
+}
+
+.sec7 h4{
+    Font-size: 16px;
+    Line-height: 25px;
+    margin-top: 1rem;
+    margin-left: 15rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.sec7 h2{
+    Font-family: 'Avenir';
+    Font-style: Heavy;
+    Font-size: 30px;
+    color: #000000;
+    margin-left: 16rem;
+ }
+
+ .loo>img{
+    width: 30%;
+    padding-left: 2rem;
+    margin-left: 19rem;
+}
+
+.secc7>img{
+    display: none;
+ }
+ .drugs>img{
+    margin-top: 2rem;
+    margin-left: 6rem;
+    margin-bottom: 2rem;
+ }
+
+ .section7{
+    display: flex;
+    flex-direction: column-reverse;
+    margin: auto;
+ }
+
+ .toptext{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    text-align: center;
+ }
+
+ .toptext1 h2{
+    Font-family: 'Avenir';
+    Font-style: Black;
+    Font-size: 24px;
+    color: #FFFFFF;
+    margin-top: 5rem;
+    text-align: center;
+ }
+
+ .toptext1 p{
+    width: 380px;
+    height: 50px;
+    Font-family: 'Avenir';
+    Font-style: Roman;
+    Font-size: 16px;
+    color: #FFFFFF;
+    margin-top: 1.5rem;
+    text-align: center;
+ }
+
+ .toptext2 p{
+    Font-family: 'Avenir';
+    Font-style: Roman;
+    Font-size: 18px;
+    color: #FFFFFF;
+    margin-top: 2rem;
+ }
+
+ .belowtext{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.belowtext1 h2{
+    width: 140px;
+    height: 30px;
+    Font-size: 26px;
+    margin:auto;
+    margin-bottom: 1rem;
+}
+
+.belowtext1 p{
+    width: 180px;
+    height: 120px;
+    Font-size: 18px;
+    margin-top: 1.5rem;
+    margin: auto;
+}
+
+.belowtext2 h4{
+    Font-size: 20px;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+
+.belowtext2 p{
+    Font-size: 16px;
+    padding-top: -0.1rem;
+}
+
+.copy{
+    text-align: center;
+    padding-top: 2rem
+}
+.copy p{
+    Font-size: 18px;
+}
+
 }
